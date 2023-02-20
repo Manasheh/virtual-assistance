@@ -41,6 +41,10 @@ function query(msg) {
         response = 'opening Instagram'
         window.open(`http://instagram.com`, "_blank");
     }
+    else if (msg.includes('open Facebook')) {
+        response = 'opening Facebook'
+        window.open(`http://facebook.com`, "_blank");
+    }
     else if (msg.includes('wikipedia') || msg.includes('Wikipedia')) {
         response = 'opening Wikipedia'
         window.open(`https://en.wikipedia.org/wiki/${msg.replace("Wikipedia", "")}`, "_blank");

@@ -10,11 +10,15 @@
 
 body {
     min-height:100vh;
-    width: 100%; 
+    width: 100vw; 
     background-color: #000;
     display:flex;
     justify-content: center;
     align-items: center;
+    background-image: url(https://media.tenor.com/GVk4jB2u_i8AAAAd/coding.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container {
     color: white;
@@ -27,13 +31,17 @@ body {
 }
 .heading h1 {
     margin: 10px;
-    font-size: 3rem;
+    font-size: 4rem;
+    color: black;
+    background-color: #f6f6f6;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 .heading p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 .input button {
-    padding: 10px 15px;
+    padding: 15px 15px;
     width: fit-content;
     border-radius: 5px;
     outline: none;
