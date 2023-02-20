@@ -15,7 +15,7 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://media.tenor.com/GVk4jB2u_i8AAAAd/coding.gif);
+    background-image: url(https://i.pinimg.com/originals/63/7a/4d/637a4d42e1738853b2f96ffbbd60622a.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,8 +48,17 @@ body {
     border: none;
     cursor: pointer;
 }
+
 .input button:hover {
     background-color: gold;
     transition: 0.4s ease;
 }
+@media only screen and (max-width: 600px) {
+    .input button span {
+        font-size: 0.7rem;
+    }
+    .heading h1 {
+        padding: 10px;
+    }
+  }
 
